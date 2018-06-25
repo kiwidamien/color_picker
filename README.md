@@ -17,7 +17,7 @@ The value of the component can be changed by either altering the slider, or the 
 ```bash
 npx create-react-app color_picker 
 ```
-This will create a subdirectory, `color_picker`, that contains the boilerplate code for our project.
+   This will create a subdirectory, `color_picker`, that contains the boilerplate code for our project.
 3. You can see the boilerplate app with the following commands:
 ```bash
 cd color_picker
@@ -71,7 +71,7 @@ Note that the homepage is **not** the URL of your github repo. The github repo h
 ```
 https://github.com/USERNAME/color_picker/
 ```
-but the URL for your project
+but the URL for your homepage should be
 ```
 https://USERNAME.github.io/color_picker/
 ```
