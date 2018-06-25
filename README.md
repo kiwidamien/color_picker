@@ -12,6 +12,20 @@ The value of the component can be changed by either altering the slider, or the 
 
 ## Getting React
 
+1. Download and install [node.js](https://nodejs.org/en/download). If you are on OS X, you can use the binary installer.
+2. Go to where you want to put your project folder in the terminal, and type
+```bash
+npx create-react-app color_picker 
+```
+This will create a subdirectory, `color_picker`, that contains the boilerplate code for our project.
+3. You can see the boilerplate app with the following commands:
+```bash
+cd color_picker
+npm start
+```
+
+In this project, we will be editing the files in the `src/` directory, as well as `package.json` to get our project published on Github pages.
+ 
 ## Deploying on Github
 
 1. Setup a new, empty repo on github. I will assume you called it **color_picker**
@@ -67,4 +81,4 @@ If you use the wrong one, your page will not show up!
 npm run deploy
 ```
 
-If you make changes to your app, simply rerun `npm run deploy` to update.
+If you make changes to your app, simply re-run `npm run deploy` to update.
